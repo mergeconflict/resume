@@ -1,0 +1,127 @@
+/* PRINT */
+
+@page {
+  margin: 0;
+}
+
+/* GENERAL */
+
+body {
+  width: 8.5in;
+  height: 11in;
+  margin: 0;
+  padding: .5in;
+  font-size: 10pt;
+  line-height: 13pt;
+  text-rendering: optimizelegibility;
+}
+
+em {
+  font-style: normal;
+  color: #248;
+}
+
+p {
+  font-family: minion-pro;
+  margin: 0 0 0 80pt;
+}
+
+dl {
+  padding-left: 80pt;
+}
+
+dt {
+  display: inline;
+  font-family: myriad-pro;
+  color: #248;
+}
+
+dt:after {
+  content: ":";
+}
+
+dd {
+  display: inline;
+  font-family: minion-pro;
+  margin: 0;
+}
+
+dd:after {
+  white-space: pre;
+  content: "\a";
+}
+
+/* HEADER */
+
+#header {
+  display: table;
+  width: 100%;
+  font-family: myriad-pro;
+  margin: 0 0 12pt 0;
+  padding: 0;
+  border-bottom: 1pt solid #248;
+}
+
+#name {
+  display: table-cell;
+  font-weight: 600;
+  font-size: 30pt;
+  line-height: 120%;
+  color: #248;
+}
+
+#contact {
+  display: table-cell;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 110%;
+  float: right;
+}
+
+#contact li {
+  display: block;
+  text-align: right;
+}
+
+/* BODY */
+
+.section {
+  margin: 16pt 0 0 0;
+}
+
+h1 {
+  font-family: myriad-pro;
+  font-weight: 600;
+  font-size: 10pt;
+  text-transform: uppercase;
+  color: #999;
+  width: 50pt;
+  margin: 0;
+  float: left;
+}
+
+h2 {
+  font-family: myriad-pro;
+  font-weight: 400;
+  font-size: 10pt;
+  margin: 0 0 0 80pt;
+}
+
+.subsection {
+  margin: 10pt 0 0 0;
+}
+
+.place {
+  color: #248;
+}
+
+.place:after {
+  content: " \00B7 ";
+}
+
+.dates {
+  font-weight: 300;
+  color: #999;
+  float: right;
+}
