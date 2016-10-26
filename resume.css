@@ -10,8 +10,8 @@ body {
   width: 8.5in;
   height: 11in;
   margin: 0;
-  padding: .5in;
-  font-size: 10pt;
+  padding: .4in .5in;
+  font-size: 8.5pt;
   line-height: 13pt;
   text-rendering: optimizelegibility;
 }
@@ -22,17 +22,18 @@ em {
 }
 
 p {
-  font-family: minion-pro;
-  margin: 0 0 0 80pt;
+  font-family: 'Martel', serif;
+  margin: 0 0 0 70pt;
 }
 
 dl {
-  padding-left: 80pt;
+  padding-left: 70pt;
 }
 
 dt {
   display: inline;
-  font-family: myriad-pro;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9pt;
   color: #248;
 }
 
@@ -42,7 +43,7 @@ dt:after {
 
 dd {
   display: inline;
-  font-family: minion-pro;
+  font-family: 'Martel', serif;
   margin: 0;
 }
 
@@ -56,7 +57,7 @@ dd:after {
 #header {
   display: table;
   width: 100%;
-  font-family: myriad-pro;
+  font-family: 'Roboto', sans-serif;
   margin: 0 0 12pt 0;
   padding: 0;
   border-bottom: 1pt solid #248;
@@ -91,9 +92,9 @@ dd:after {
 }
 
 h1 {
-  font-family: myriad-pro;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  font-size: 10pt;
+  font-size: 8pt;
   text-transform: uppercase;
   color: #999;
   width: 50pt;
@@ -102,10 +103,10 @@ h1 {
 }
 
 h2 {
-  font-family: myriad-pro;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 10pt;
-  margin: 0 0 0 80pt;
+  margin: 0 0 2pt 70pt;
 }
 
 .subsection {
